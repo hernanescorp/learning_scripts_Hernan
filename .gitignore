@@ -1,0 +1,43 @@
+# === PYTHON ===
+
+# Bytecode files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Cython build artifacts
+*.so
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# === JUPYTER NOTEBOOKS ===
+
+.ipynb_checkpoints/
+
+# === VISUAL STUDIO CODE ===
+
+.vscode/
+
+# === OS-SPECIFIC ===
+
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# === MISC ===
+
+*.swp
+*.swo
